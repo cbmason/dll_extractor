@@ -100,7 +100,7 @@ def extract_elf(path: str):
 
 # TODO: use argparse
 if __name__ == "__main__":
-    if len(sys.argv) > 2:
+    if len(sys.argv) != 2:
         print("Usage: dll_extractor <path to file>")
         exit(-1)
 
